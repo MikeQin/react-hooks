@@ -8,8 +8,6 @@ function StateCounter() {
   useEffect(() => {
     // Update the document title using the browser API
     document.title = `${message}`;
-
-    return (document.title = "Hello, World");
   });
 
   const handleClick = () => {
