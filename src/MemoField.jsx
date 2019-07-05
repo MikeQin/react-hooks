@@ -4,7 +4,7 @@ const MemoField = () => {
   const [value, setValue] = useState("");
 
   const memoizedValue = useMemo(() => {
-    console.log("useMemo called");
+    console.log("useMemo called, expensive operations go here");
     return value;
   }, [value]);
 
